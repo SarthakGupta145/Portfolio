@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Roboto:wght@300;400&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    background-color: whitesmoke;
+    width: 15vw;
+    height: 110vh;
+    transition: transform 0.3s ease-in;
+    position: absolutes;
+}
+
+.sidebar h1 {
+    margin-top: 60px;
+}
+
+.sidebar nav {
+    padding: 62px;
+
+}
+
+/* .sidebargo {
+    transform: translate(-443px, 0px);
+    position: absolute;
+} */
+
+
+.sidebar nav li {
+    font-size: 20px;
+    list-style: none;
+    padding: 20px 0;
+
+}
+
+.sidebar li a {
+    text-decoration: none;
+    color: black;
+}
+
+.sidebar h1 {
+    font-size: 27px;
+    padding-left: 10px;
+}
+
+.main {
+    width: 850vw;
+    background-color: rgb(10, 7, 7);
+    color: white;
+
+}
+
+.infocontainer {
+    height: 60vh;
+    width: 85vw;
+    margin: 140px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.infocontainer div {
+    padding: 10px;
+}
+
+.devPic img {
+    width: 230px;
+    height: 50vh;
+    margin-right: 90px;
+    border-radius: 50%;
+
+}
+
+.devInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 10vh;
+    margin-top: 100px;
+
+}
+
+.hello {
+    font-size: 60px;
+}
+
+.name {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.about {
+    font-size: 30px;
+}
+
+.buttons button {
+    margin-top: 30px;
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: rgb(250, 250, 253);
+    background-color: blue;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 4px;
+    cursor: pointer;
+}
+
+
+
+.buttons button:hover {
+    background-color: rgb(250, 250, 253);
+    color: blue;
+}
+
+.moreabout {
+    font-size: 20px;
+}
+
+@media screen and (max-width :16150px) {
+
+    /* .sidebar {
+        transform: translate(-443px, 0px);
+        position: absolute;
+    } */
+    /* .devPic {
+        display: none;
+    } */
+    .contactform,
+    .intro,
+    .blogContainer {
+        margin: 50px, 8px;
+    }
+}
+
+.hamburger {
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.cross {
+    margin-left: 150px;
+}

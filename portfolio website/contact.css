@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Roboto:wght@300;400&display=swap');
+
+.contactform {
+    font-family: 'Baloo Bhai 2', cursive;
+    padding-top: 40px;
+    padding-left: 30px;
+
+}
+
+.contactform h1 {
+    font-family: 'Baloo Bhai 2', cursive;
+    text-align: center;
+    padding: 20px;
+}
+
+.contactform div {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input {
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 4px;
+}
+
+#emailHelp {
+    font-size: 20px;
+    color: rgb(105, 105, 113);
+    margin: 0 3px;
+    padding: 3px;
+}
+
+#form-check {
+    flex-direction: row;
+}
+
+#form-check input {
+    width: 18px;
+    margin: 2px 2px 0 0;
+}
+
+.contactform form button {
+
+    margin-top: 30px;
+    padding: 9px 14px;
+    border-radius: 18px;
+    color: rgb(250, 250, 253);
+    background-color: blue;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 4px;
+    cursor: pointer;
+}
+
+.contactform form button:hover {
+
+    background-color: rgb(250, 250, 253);
+    color: blue;
+}

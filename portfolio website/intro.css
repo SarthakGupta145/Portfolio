@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Roboto:wght@300;400&display=swap');
+
+
+.devInfo1 {
+    padding: 20px;
+}
+
+.devInfo1 h2 {
+    margin: 0 2px;
+    padding: 15px;
+}
+
+.devInfo1 p {
+    margin: 0 2px;
+
+}
+
+
+.skill {
+    width: 250px;
+    height: 22px;
+    background-color: green;
+    margin: 10px;
+    /* padding: 0 10px; */
+}
+
+.skillitem {
+    display: flex;
+    margin: 15px 0 0 0;
+    font-family: 'Baloo Bhai 2', cursive;
+
+}
+
+.skill {
+    color: black;
+}
+
+.hundred {
+    width: 265px;
+    background-color: red;
+    border: 2px solid white;
+
+}
+
+.fifty {
+    width: 132px;
+    background-color: aqua;
+    border: 2px solid white;
+
+}
+
+.t5 {
+    width: 75px;
+    background-color: burlywood;
+    border: 2px solid white;
+
+
+}
